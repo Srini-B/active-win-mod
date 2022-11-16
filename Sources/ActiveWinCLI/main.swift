@@ -54,6 +54,7 @@ func exitWithoutResult() -> Never {
 
 let disableScreenRecordingPermission = CommandLine.arguments.contains("--no-screen-recording-permission")
 
+/*
 // Show accessibility permission prompt if needed. Required to get the complete window title.
 if !AXIsProcessTrustedWithOptions(["AXTrustedCheckOptionPrompt": true] as CFDictionary) {
 	print("active-win requires the accessibility permission in “System Preferences › Security & Privacy › Privacy › Accessibility”.")
@@ -64,7 +65,7 @@ if !AXIsProcessTrustedWithOptions(["AXTrustedCheckOptionPrompt": true] as CFDict
 if !disableScreenRecordingPermission && !hasScreenRecordingPermission() {
 	print("active-win requires the screen recording permission in “System Preferences › Security & Privacy › Privacy › Screen Recording”.")
 	exit(1)
-}
+}*/
 
 guard
 	let frontmostAppPID = NSWorkspace.shared.frontmostApplication?.processIdentifier,
