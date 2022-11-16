@@ -1,9 +1,9 @@
 {
-	"name": "@rize-io/active-win",
-	"version": "7.7.4-beta.6",
+	"name": "@srini-b/active-win-mod",
+	"version": "7.7.5",
 	"description": "Get metadata about the active window (title, id, bounds, owner, URL, etc). Works on macOS, Linux, Windows.",
 	"license": "MIT",
-	"repository": "rize-io/active-win",
+	"repository": "Srini-B/active-win-mod",
 	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
