@@ -1,6 +1,6 @@
 {
 	"name": "@srini-b/active-win-mod",
-	"version": "7.7.6",
+	"version": "7.7.7",
 	"description": "Get metadata about the active window (title, id, bounds, owner, URL, etc). Works on macOS, Linux, Windows.",
 	"license": "MIT",
 	"repository": "Srini-B/active-win-mod",
@@ -63,7 +63,7 @@
 		"ffi-napi": "^4.0.3",
 		"ref-napi": "^3.0.3",
 		"ref-struct-di": "^1.1.1",
-		"ref-wchar-napi": "^1.0.3"
+		"ref-wchar-napi-lite": "^1.0.3"
 	},
 	"ava": {
 		"verbose": true
