@@ -9,13 +9,13 @@ Users on macOS 10.13 or earlier needs to download the [Swift runtime support lib
 ## Install
 
 ```sh
-npm install active-win
+npm i @srini-b/active-win-mod
 ```
 
 ## Usage
 
 ```js
-const activeWindow = require('active-win');
+const activeWindow = require('@srini-b/active-win-mod');
 
 (async () => {
 	console.log(await activeWindow(options));
